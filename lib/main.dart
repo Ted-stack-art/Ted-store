@@ -1,20 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:ted_store/utils/theme/theme.dart';
 
+import 'app.dart';
+
 void main() {
-  runApp(const MyApp());
+
+  // Todo: Add Widgets Bindings
+  // Todo: Init Local Storage
+  // Todo: Await Native Splash
+  // Todo: Initialize Firebase
+  // Todo: Initialize Authentication
+  runApp(const App());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      themeMode: ThemeMode.system,
-      theme:TAppTheme.lightTheme,
-      darkTheme: TAppTheme.darkTheme,
-    );
-  }
-}
 
