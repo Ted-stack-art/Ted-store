@@ -31,7 +31,14 @@ dependencies:
   flutter:
     sdk: flutter
 
-  #utility Packages
+  # utility packages
+
+  http: ^1.1.0
+  intl: ^0.20.2
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+
+
 
   #icons
   iconsax: ^0.0.8
@@ -42,6 +49,7 @@ dependencies:
 
   #state auth_management
   get: ^4.6.5
+  get_storage: ^2.1.1
 
   #product specific
 
@@ -51,6 +59,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
